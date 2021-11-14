@@ -28,7 +28,11 @@ def test_calculator_subtract():
 def test_calculator_multiply():
     """ tests multiplication of two numbers"""
     calc = Calculator()
-    result  = calc.multiply_numbers(1,2)
+    result = calc.multiply_numbers(1,2)
     assert result == 2
-
+def test_calculator_divide():
+    """test division of two numbers"""
+    calc = Calculator()
+    result = calc.divide_numbers(4,2)
+    assert result == 2
 
