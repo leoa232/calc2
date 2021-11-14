@@ -35,4 +35,3 @@ def test_calculator_divide():
     calc = Calculator()
     result = calc.divide_numbers(4,2)
     assert result == 2
-
